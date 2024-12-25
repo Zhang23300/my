@@ -5,6 +5,16 @@ git push origin +仓库对应的分支(main) // 本地更新仓库
 git pull origin +仓库对应的分支(main) // 仓库更新本地
 git clone + 页面对应的ssh // 获取
 
+文件夹更新:
+//添加进程
+git init
+//要修改或者要添加的地点
+git remote add origin ssh
+//查看当前的所在的分支,即要现在的命令要更新的对应文件夹
+git add .
+git commit -m "Initial commit"
+git push -u origin master  # 或者使用 main，根据你的本地分支
+
 //本地更新到仓库(全部)
 {
 //把对应ssh的文件复制过来
