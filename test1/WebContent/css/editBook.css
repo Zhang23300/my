@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px; /* 减小容器的最大宽度 */
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF; 
+    outline: none; 
+}
+
+.submit-button {
+    background-color: #007BFF; /* 按钮的背景颜色 */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* 增加按钮的填充 */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* 使按钮宽度适应容器 */
+    font-size: 18px; /* 增大字体 */
+    transition: background-color 0.3s; 
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* 悬停时的背景颜色 */
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* 按钮的背景颜色 */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* 增加按钮的填充 */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* 使按钮宽度适应容器 */
+    font-size: 18px; /* 增大字体 */
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* 悬停时的背景颜色 */
+}

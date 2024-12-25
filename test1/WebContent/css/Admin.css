@@ -1,0 +1,80 @@
+body {
+    width: 900px; /* 调整整体宽度 */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif; /* 设置字体 */
+    background-color: #f9f9f9; /* 背景色 */
+}
+
+h1, h2 {
+    color: #333; /* 标题颜色 */
+    font-size: 24pt; /* 调整标题字体大小 */
+}
+
+.div_01 {
+    background-color: #5DE2E7;
+    border: 2px solid #aaaaaa;
+    width: 100%; /* 改为100%以适应不同屏幕 */
+    height: 80px; /* 调整高度 */
+    font-size: 18pt; /* 调整字体大小 */
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+.div_02 {
+    display: flex; /* 使用 Flexbox 布局 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    text-align: center; /* 文字居中 */
+    line-height: 18pt; /* 调整行高 */
+    padding: 8px; /* 调整内边距 */
+    font-weight: bold;
+    border-bottom: solid #777777 2px;
+}
+
+.div_03 {
+    padding-top: 10px;
+}
+
+table {
+    width: 100%; /* 表格宽度100% */
+    border-collapse: collapse; /* 合并边框 */
+}
+
+th, td {
+    border: 1px solid #ddd; /* 添加边框 */
+    padding: 8px; /* 调整内边距 */
+    text-align: center; /* 单元格文本居中 */
+    font-size: 14pt; /* 调整字体大小 */
+}
+
+th {
+    background-color: #22ccff; /* 表头背景色 */
+    color: white; /* 表头字体颜色 */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* 链接颜色 */
+}
+
+a:hover {
+    text-decoration: underline; /* 悬停时下划线 */
+}
+
+.span_01 {
+    color: red; /* 用户名颜色 */
+}
+
+#span_02 {
+    width: 200px; /* 调整宽度 */
+    height: 20px;
+    background-color: red; /* 当前时间背景色 */
+    color: white; /* 字体颜色 */
+    display: inline-block; /* 让其成为块级元素 */
+    font-size: 12pt; /* 调整字体大小 */
+    margin-top: 5px; /* 添加上边距以分隔当前时间 */
+}
